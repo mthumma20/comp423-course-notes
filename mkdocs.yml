@@ -2,7 +2,3 @@ site_name: COMP423 Course Notes
 theme:
   name: material
 
-nav:
-  - Home: index.md
-  - Tutorials:
-      - Rust Setup: tutorials/rust-setup.md
