@@ -1,6 +1,11 @@
 site_name: COMP423 Course Notes
+
 theme:
   name: material
+  features:
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -10,20 +15,5 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
-
-theme:
-  features:
-    - content.code.copy
-
-theme:
-  features:
-    - content.code.select
-
-theme:
-  features:
-    - content.code.annotate
-
-markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
