@@ -60,11 +60,13 @@ Before starting, make sure you have:
     mkdir .devcontainer
     ```
 
-2. Add the `devcontainer.json` file:
+2. Add the `devcontainer.json` file: 
+
+This includes the name of the DevContainer, the Docker image used to create the development environment, customizations, and a command to run after the container is created.
 
     ```json title=".devcontainer/devcontainer.json"
     {
-      "name": "Rust Dev Environment",
+      "name": "Rust Dev Environment", 
       "image": "mcr.microsoft.com/devcontainers/rust:latest",
       "customizations": {
         "vscode": {
